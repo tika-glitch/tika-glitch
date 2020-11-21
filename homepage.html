@@ -1,45 +1,136 @@
 <!DOCTYPE html>
+
 <html lang="en">
-    <head>
-        <title>
-            Welcome!
-        </title>
-        <style>
-            body
-            {
-                background-image: url(christmas.jpeg);
-                background-size: 1300px 667px;
-                text-align:center;
-            }
-            h1 {
-    left: 0;
-    line-height: 200px;
-    margin-top: -100px;
-    position: absolute;
-    text-align: center;
-    top: 30%;
-    width: 100%;
-    color: gold;
-    font-size: 350%;
-}
-img {
-  height: 150px;
-  position: relative;
-  border: 5px solid gold;
-}
+<head>
+    <title></title>
 
-img{
-  margin: 0;
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  right: 50%;
-  -ms-transform: translate(-50%, -50%);
 
-        </style>
-    </head>
-    <body>
-    <h1>Merry Cristmas!</h1>
-    <img src="gifts.jpeg" alt="gifts">
-    </body>
+<style>
+    * {
+        color:white;
+    }
+    li {
+        display: inline;
+    }
+    table {
+      margin: 80px;
+      padding:80px;
+      padding-bottom: 50px;
+      border-radius: 10px;
+      text-align: center;
+      border:1px solid white;
+      margin-left: auto;
+       margin-right: auto;
+
+    }
+    td .H:hover{
+      animation-name: HOVER;
+      animation-duration: 500ms;
+      animation-fill-mode: forwards;
+    }
+    @keyframes HOVER {
+      0% {
+        background-color:#f7dec6;
+      }
+      100% {
+        background-color:black;
+        transform: scale(1.1);
+      }
+    }
+    body
+    {
+        text-align: center;
+        background: linear-gradient(90deg, #FFCCCC, #0000ff);
+    }
+    input[type=submit] {
+  background-color: #3CBC8D;
+  color: white;
+  border: 2px solid rgb(10,255,10);
+  border-radius: 4px;
+}
+</style>
+</head>
+<body>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title></title>
+
+
+<style>
+    * {
+        color:white;
+    }
+    li {
+        display: inline;
+    }
+    table {
+      margin: 80px;
+      padding:80px;
+      padding-bottom: 50px;
+      border-radius: 10px;
+      text-align: center;
+      border:1px solid white;
+      margin-left: auto;
+       margin-right: auto;
+
+    }
+    td .H:hover{
+      animation-name: HOVER;
+      animation-duration: 500ms;
+      animation-fill-mode: forwards;
+    }
+    @keyframes HOVER {
+      0% {
+        background-color:#f7dec6;
+      }
+      100% {
+        background-color:black;
+        transform: scale(1.1);
+      }
+    }
+    body
+    {
+        text-align: center;
+        background: linear-gradient(90deg, #FFCCCC, #0000ff);
+    }
+    input[type=submit] {
+  background-color: #3CBC8D;
+  color: white;
+  border: 2px solid rgb(10,255,10);
+  border-radius: 4px;
+}
+</style>
+</head>
+<body>
+  <form action="/register" style="float:right;">
+    <input type="submit" value="Register" />
+</form>
+<form action="/login" style="float:right;">
+    <input type="submit" value="Log in" />
+</form>
+
+    <h1>WELCOME TO GlobalGames!</h1>
+    <table>
+    <thead>
+    <tr>
+        <td><b>Website name</td>
+        <td><b>Website Description</td>
+        <td><b>Website Category</td>
+    </tr>
+    </thead>
+
+      <tbody><!--First Term-->
+        <tr><!--Column 10-->
+          <td><a class="H" href="">GlobalGames</td>
+          <td><a class="H" href="">This website template is a simpler version of Stackoverflow.</td>
+          <td><a class="H" href="">Forum</td>
+        </tr>
+      </tbody>
+
+</body>
+</html>
+
+</body>
 </html>
